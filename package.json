@@ -1,0 +1,16 @@
+{
+  "name": "adventofcode2024",
+  "version": "1.0.0",
+  "description": "My solution for the challenges of [Advent of Code 2024](https://adventofcode.com/2024)",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./dist/$DAY/script.js",
+    "serve": "npx tsc && node ./dist/$DAY/script.js"
+  },
+  "author": "Max Manthey",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
